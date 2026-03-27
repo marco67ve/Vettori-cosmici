@@ -1,5 +1,8 @@
 # 🚀 Vettori Cosmici (Cosmic Vectors)
 
+**VC*.BAS** è un simulatore grafico-fisico scritto originariamente nel **1991** per QuickBASIC 4.5 e aggiornato nel **2008** per **QB64**. Il programma calcola e visualizza i vettori di velocità istantanea a cui è sottoposto un osservatore sulla Terra, sommandoli per ricavare la velocità risultante rispetto alla Radiazione Cosmica di Fondo (CMBR).
+
+
 ## 📜 Evoluzione del Codice (1991 vs 2008)
 
 Il repository include la versione originale del **1991** (`VC.BAS`) e il porting moderno del **2008** (`VC_QB64.BAS`). Le differenze principali documentano il passaggio tecnologico tra due ere:
@@ -8,8 +11,6 @@ Il repository include la versione originale del **1991** (`VC.BAS`) e il porting
 * **Precisione Matematica:** La versione originale operava principalmente in precisione singola, mentre la versione 2008 introduce la doppia precisione (`DEFDBL`) e l'uso di costanti astronomiche aggiornate secondo gli standard IAU.
 * **Funzioni Native:** Nella versione del 1991 è presente un'implementazione manuale della funzione `Atan2`, necessaria in QuickBASIC 4.5 per la corretta gestione dei quadranti trigonometrici, ora sostituita dalla funzione nativa in QB64.
 * **Rappresentazione Grafica:** La versione moderna introduce il supporto ai colori a 32-bit (`_RGB`) e una scala dinamica migliorata per la visualizzazione dei corpi celesti e dei pianeti interni.
-
-**VC*.BAS** è un simulatore grafico-fisico scritto originariamente nel **1991** per QuickBASIC 4.5 e aggiornato nel **2008** per **QB64**. Il programma calcola e visualizza i vettori di velocità istantanea a cui è sottoposto un osservatore sulla Terra, sommandoli per ricavare la velocità risultante rispetto alla Radiazione Cosmica di Fondo (CMBR).
 
 ## 🌌 Cosa misura il programma?
 Il software calcola la velocità totale sommando quattro componenti vettoriali fondamentali:
